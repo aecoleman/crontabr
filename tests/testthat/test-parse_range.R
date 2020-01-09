@@ -1,4 +1,5 @@
 test_that("parse_range works", {
+
   expect_equal(
     parse_range("0-5"),
     c(0L:5L)
@@ -16,8 +17,7 @@ test_that("parse_range works", {
 
 })
 
-test_that("parse_range errors for numbers out of order",
-  {
+test_that("parse_range errors for numbers out of order", {
 
    expect_error(
      parse_range("5-1")
@@ -33,4 +33,4 @@ test_that("parse_range errors for numbers out of order",
   )
 
   }
-  )
+)
