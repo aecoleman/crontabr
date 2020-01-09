@@ -13,44 +13,36 @@ knitr::opts_chunk$set(
 )
 ```
 
-# crontab
+# crontabr
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN status](https://www.r-pkg.org/badges/version/crontab)](https://CRAN.R-project.org/package=crontab)
 <!-- badges: end -->
 
-The goal of crontab is to ...
+The goal of `crontabr` is to make reading crontab files easier.  
 
 ## Installation
 
-You can install the released version of crontab from [CRAN](https://CRAN.R-project.org) with:
+The `crontabr` package is not yet available from [CRAN](https://CRAN.R-project.org), but you can install the development version from GitHub with:
 
 ``` r
-install.packages("crontab")
+# install.packages("remotes")
+remotes::install_github("aecoleman/crontabr")
 ```
+
+
+<!-- You can install the pre-released/early access version of `crontab` from [CRAN](https://CRAN.R-project.org) with: -->
+
+<!-- ``` r -->
+<!-- install.packages("crontabr") -->
+<!-- ``` -->
 
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-library(crontab)
+library(crontabr)
 ## basic example code
 ```
-
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
