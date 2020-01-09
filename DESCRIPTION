@@ -1,4 +1,4 @@
-Package: crontab
+Package: crontabr
 Title: Read Crontab Files
 Version: 0.0.0.9000
 Authors@R: 
