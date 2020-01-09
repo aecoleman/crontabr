@@ -1,12 +1,12 @@
 Package: crontab
-Title: What the Package Does (One Line, Title Case)
+Title: Read Crontab Files
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Andrew",
            family = "Coleman",
            email = "andrew.e.coleman+r@gmail.com",
-           role = c("aut", "cre", "maintainer"))
-Description: What the package does (one paragraph).
+           role = c("aut", "cre"))
+Description: Read crontab files
 License: GPL-3
 Suggests: 
     testthat (>= 2.1.0)
@@ -14,3 +14,8 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.0.2
+Imports: 
+    lubridate,
+    purrr,
+    stringr,
+    magrittr
